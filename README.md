@@ -106,12 +106,14 @@ We use two loss functions together:
 
 ## Graphs
 
-### graph1.png — Training Loss vs Epochs
+### Training Loss vs Epochs
+![Training Loss vs Epochs](graph1.png)
 - Shows loss decreasing over 20 epochs
 - Proves the model is learning with each epoch
 - Loss starts high and steadily drops — expected healthy training behavior
 
-### graph2.png — Accuracy vs Resolution
+### Accuracy vs Resolution
+![Accuracy vs Resolution](graph2.png)
 - Compares High-Res (224×224) vs Low-Res (112×112) accuracy
 - High-Res Accuracy: 95.96%
 - Low-Res Accuracy: 87.37%
